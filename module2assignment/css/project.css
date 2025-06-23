@@ -76,3 +76,13 @@ h1 {
     width: 100%;
   }
 }
+
+@media (max-width: 400px) {
+  .chicken-text,
+  .beef-text,
+  .sushi-text {
+    height: max-content;
+    width: fit-content;
+    padding: 40px 15px 15px 15px;
+  }
+}
