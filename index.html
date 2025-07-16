@@ -3,41 +3,148 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+
     <title>Document</title>
-    <link rel="stylesheet" href="./css/project.css"
   </head>
   <body>
-    <div class="container">
-      <h1>Our Menu</h1>
-
-      <div class="row">
-        <div class="col-lg-4 col-md-6 chicken-container">
-          <p class="chicken-header">Chicken</p>
-          <p class="chicken-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Food, LLC</a>
+        <button
+          class="navbar-toggler d-block d-sm-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-block d-sm-none">
+            <li class="nav-item text-center">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Chicken</a
+              >
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#">Beef</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" href="#">Sushi</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+    <!--End of Navbar-->
 
-        <div class="col-lg-4 col-md-6 beef-container">
-          <p class="beef-header">Beef</p>
-          <p class="beef-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
-          </p>
-        </div>
+    <div id="main-content" class="container-fluid">
+      <h1 class="text-center">Our Menu</h1>
 
-        <div class="col-lg-4 col-md-6 sushi-container">
-          <p class="sushi-header">Sushi</p>
-          <p class="sushi-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+      <div id="chicken-content" class="row">
+        <div class="col-xs-12">
+          <h4 class="text-center">Chicken</h4>
+          <p class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in
+            sodales eros. Etiam non risus ac risus mollis viverra. Curabitur
+            dolor nulla, mollis eu nunc non, vulputate convallis enim.
+            Suspendisse id tincidunt ipsum. Ut varius non est non gravida.
+            Aenean varius tincidunt nulla eget eleifend. Pellentesque habitant
+            morbi tristique senectus et netus et malesuada fames ac turpis
+            egestas. Duis maximus posuere egestas. Duis justo ipsum,
+            sollicitudin sit amet sodales et, aliquam ut diam. Morbi sed ligula
+            pulvinar, scelerisque erat non, euismod ante. Nullam molestie eros
+            eu metus auctor, et mollis dui blandit. Maecenas pretium, metus eu
+            tempus tempus, risus diam posuere velit, vel placerat magna libero
+            in est. Ut et nunc at lacus ullamcorper commodo. Sed vitae tellus
+            felis. Aenean fringilla, lacus ut dignissim eleifend, metus eros
+            gravida ex, vitae pulvinar ligula nulla vitae metus. Ut consequat
+            placerat augue quis fermentum. Nulla luctus dolor laoreet quam
+            euismod ultrices. Nulla a semper tortor. In ut aliquet orci.
+            Pellentesque convallis augue neque, vitae fermentum ligula dapibus
+            nec. Proin euismod elit nulla, quis dapibus sem cursus at. Nullam
+            iaculis est at neque sollicitudin malesuada. Donec facilisis erat at
+            congue placerat. Maecenas tempus, dolor ac consequat vestibulum,
+            arcu ex aliquam nunc, eu feugiat ante tortor id dui. Donec interdum
+            blandit lectus eu condimentum. Nulla dui arcu, dictum luctus
+            convallis eu, auctor et nulla. Vestibulum sit amet vulputate augue.
+            Sed rhoncus vel libero vitae sagittis. Mauris dignissim eros eu
+            posuere egestas. Duis finibus non lorem quis imperdiet. Phasellus
+            leo tortor, pellentesque id eleifend nec, cursus at nulla. Mauris
+            rutrum lorem ipsum, nec porta metus malesuada non. Nunc luctus metus
+            eget condimentum euismod. Ut at elementum erat. Ut ultrices ante in
+            nibh posuere tristique. Praesent rhoncus velit consectetur magna
+            maximus, vel faucibus nibh lobortis. Quisque elementum laoreet
+            turpis a gravida. Donec a consequat dolor, ut imperdiet ante.
+            Maecenas consectetur accumsan ligula, ut mollis magna placerat eu.
+            Suspendisse ullamcorper erat lectus, a placerat nulla vulputate ac.
+            Cras sagittis lacinia tellus, eu sollicitudin sapien efficitur eget.
+            Suspendisse suscipit commodo mollis. Aenean non velit vitae arcu
+            bibendum cursus. Suspendisse cursus, turpis quis hendrerit
+            scelerisque, elit eros convallis tortor, ut semper nisi justo nec
+            felis. Nunc consectetur tellus ante, nec aliquet metus facilisis
+            quis. Nullam porttitor neque vitae ex tempus sollicitudin. Phasellus
+            sit amet interdum dui. Vestibulum ut mi nunc. Nunc porttitor erat
+            vel metus tincidunt, in fermentum est consectetur. Nam suscipit
+            mauris ut ex euismod, vitae dictum nisi accumsan. Etiam mattis
+            ultricies tellus at interdum. Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit. Sed in sodales eros. Etiam non risus ac
+            risus mollis viverra. Curabitur dolor nulla, mollis eu nunc non,
+            vulputate convallis enim. Suspendisse id tincidunt ipsum. Ut varius
+            non est non gravida. Aenean varius tincidunt nulla eget eleifend.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Duis maximus posuere egestas. Duis justo
+            ipsum, sollicitudin sit amet sodales et, aliquam ut diam. Morbi sed
+            ligula pulvinar, scelerisque erat non, euismod ante. Nullam molestie
+            eros eu metus auctor, et mollis dui blandit. Maecenas pretium, metus
+            eu tempus tempus, risus diam posuere velit, vel placerat magna
+            libero in est. Ut et nunc at lacus ullamcorper commodo. Sed vitae
+            tellus felis. Aenean fringilla, lacus ut dignissim eleifend, metus
+            eros gravida ex, vitae pulvinar ligula nulla vitae metus. Ut
+            consequat placerat augue quis fermentum. Nulla luctus dolor laoreet
+            quam euismod ultrices. Nulla a semper tortor. In ut aliquet orci.
+            Pellentesque convallis augue neque, vitae fermentum ligula dapibus
+            nec. Proin euismod elit nulla, quis dapibus sem cursus at. Nullam
+            iaculis est at neque sollicitudin malesuada. Donec facilisis erat at
+            congue placerat. Maecenas tempus, dolor ac consequat vestibulum,
+            arcu ex aliquam nunc, eu feugiat ante tortor id dui. Donec interdum
+            blandit lectus eu condimentum. Nulla dui arcu, dictum luctus
+            convallis eu, auctor et nulla. Vestibulum sit amet vulputate augue.
+            Sed rhoncus vel libero vitae sagittis. Mauris dignissim eros eu
+            posuere egestas. Duis finibus non lorem quis imperdiet. Phasellus
+            leo tortor, pellentesque id eleifend nec, cursus at nulla. Mauris
+            rutrum lorem ipsum, nec porta metus malesuada non. Nunc luctus metus
+            eget condimentum euismod. Ut at elementum erat. Ut ultrices ante in
+            nibh posuere tristique. Praesent rhoncus velit consectetur magna
+            maximus, vel faucibus nibh lobortis. Quisque elementum laoreet
+            turpis a gravida. Donec a consequat dolor, ut imperdiet ante.
+            Maecenas consectetur accumsan ligula, ut mollis magna placerat eu.
+            Suspendisse ullamcorper erat lectus, a placerat nulla vulputate ac.
+            Cras sagittis lacinia tellus, eu sollicitudin sapien efficitur eget.
+            Suspendisse suscipit commodo mollis. Aenean non velit vitae arcu
+            bibendum cursus. Suspendisse cursus, turpis quis hendrerit
+            scelerisque, elit eros convallis tortor, ut semper nisi justo nec
+            felis. Nunc consectetur tellus ante, nec aliquet metus facilisis
+            quis. Nullam porttitor neque vitae ex tempus sollicitudin. Phasellus
+            sit amet interdum dui. Vestibulum ut mi nunc. Nunc porttitor erat
+            vel metus tincidunt, in fermentum est consectetur. Nam suscipit
+            mauris ut ex euismod, vitae dictum nisi accumsan. Etiam mattis
+            ultricies tellus at interdum.
           </p>
         </div>
       </div>
