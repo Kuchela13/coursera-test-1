@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: grey;
+  border-top: solid 3px black;
+  border-bottom: solid 3px black;
+  padding-bottom: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar-brand {
+  font-size: 36px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+#chicken-content {
+  background-color: grey;
+  height: 1000px;
+  width: 95%;
+  overflow: hidden;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+ul {
+  width: 100%;
+  background-color: beige;
+}
+
+.nav-item a:hover {
+  background: #801212;
+}
+
+@media (max-width: 575px) {
+  #main-content {
+    width: 400px;
+  }
+}
