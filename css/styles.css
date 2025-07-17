@@ -48,3 +48,11 @@ ul {
     width: 400px;
   }
 }
+
+.nav-link {
+  border: solid 1px black;
+}
+
+.sushi {
+  border-bottom: none;
+}
